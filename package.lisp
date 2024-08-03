@@ -1,6 +1,6 @@
-(defpackage #:scalpl.public-domain-utils
-  (:use #:c2cl #:anaphora #:parse-float #:decimals
-        #:string-case #:local-time #:split-sequence)
+(defpackage #:towel.public-domain-utils
+;;(:use #:c2cl #:anaphora #:parse-float #:decimals
+;;      #:string-case #:local-time #:split-sequence)
   (:export ; if these are complex enough that their documentation
    ;; string overflows into the format restandardizatation debate,
    ;; then they belong in some else's liquid utility exhaust pipe!

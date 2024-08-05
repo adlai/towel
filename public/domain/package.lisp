@@ -7,9 +7,9 @@
    ;;
    ;; mathematics
    #:icbrt
-   #:shorten-uid
+   #:shorten-uid			;_:keyword &allow-other-keys
    #:dbz-guard
-   #:string-octets #:octets
+   #:string-octets #:octets		; :keyword &allow-other-keys
    ;; metaprogram
    #:once-only
    #:shallow-copy

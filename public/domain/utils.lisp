@@ -26,4 +26,18 @@
                      (pprint-newline :fill))))))
     (t (format t "~(~A~)" json))))
 
+;; ;;; BRING_IT
+
+;; (defgeneric luhn-checksum (payload)
+;;   (:method ((payload vector) &aux (length (length payload)))
+;;     (flet ((droot1 (vingty)
+;;              (multiple-value-bind (ones tens)
+;;                  (floor vingty 10)
+;;                (+ ones tens))))
+;;       (- 10 (mod (loop for place from length above 0
+;;                        for parity = (1+ (mod place 2))
+;;                        for digit across payload
+;;                        sum (droot1 (* digit parity)))
+;;                  10)))))
+
 ;;; CINGULAR

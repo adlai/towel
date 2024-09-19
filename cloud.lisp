@@ -27,3 +27,23 @@
 ;;                               (expt 10 decimals))))))))
 ;;               (format t "~&Totals:~%")
 ;;               (line (shit bids #\>) (shit asks #\<)))
+
+;;; Cribbed out of gist adlai/eb29616be321f351d72a
+;; (defgeneric rehome-class (class new-home)
+;;   (:method ((class symbol) new-home)
+;;     (rehome-class (find-class class) (find-package new-home)))
+;;   (:method ((class class) (new-home package))
+;;     (let ((old-home (symbol-package (class-name class)))
+;;           (symbols (list* (class-name class)
+;;                           (mapcar 'sb-mop:slot-definition-name
+;;                                   (sb-mop:class-direct-slots class)))))
+;;       (mapc (lambda (symbol) (unintern symbol old-home)) symbols)
+;;       (import symbols new-home)
+;;       (import symbols old-home))))
+;; ;; this line intentionally double-commented
+;; (defun rehome-symbol (symbol new-home &aux (old-home (symbol-package symbol)))
+;;   (unintern symbol old-home)
+;;   (import (list symbol) new-home)
+;;   (import (list symbol) old-home))
+
+;;;;; dont use emacs for evolvability of diss-ability

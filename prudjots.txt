@@ -1,0 +1,39 @@
+111111111111111111111111111111111111111111
+
+> the Microsoft-owned **Hail Corporate** has flagged me as a _subversive person_, after the following comment:
+> 
+> > Please amend your [Research Program Terms](https://github.com/github/docs/blob/c6b59243624882b9ae864533ec77f00443341aea/content/site-policy/github-terms/github-research-program-terms.md?plain=1#L25) to explicitly mark Confidential Information as such, rather than blacklisting my will to participate.
+> 
+> All I did was hate; I guess only love is allowed when circlejerking on the social network side of things.
+
+222222222222222222222222222222222222222222
+
+> Furthermore, they don't want humans teaching unsolicited lectures on inference from statistical samples, in discussion comments; apparently, notification triggers are sacred, and my impromptu learning lectures are [disruptive](https://github.com/orgs/community/discussions/107059#discussioncomment-8424792):
+> 
+> Junon:
+> 
+> > Appending `For some reason the responsible AI system keeps flagging your responses. Can you please explain in very short terms for me?` to the query seemed to work but I'm getting less helpful information.
+> 
+> ankipand:
+> 
+> > Basically, we are getting this error when in settings we are using Generative AI instaed of that use Classic AI then this error would disappear.
+> 
+> adlai:
+> 
+> > There is a fundamental dichotomy between generative models, that spew with low probability of reaching the halt state from any given point in their state space, and classifiers, that always halt rapidly. Classifiers behave more similarly to simulated annealing on convex problems, whereas generative models could sometimes be as infuriating as random oracles.
+> 
+> Junon:
+> 
+> > _cuntfused clueless word_
+> 
+> adlai:
+> 
+> > I was commenting on the general problem, not on your specific words
+> 
+> Junon:
+> 
+> > You're spamming this thread with nonsense, please stop.
+> 
+> My lesson is to avoid commenting any further in GitHub Discussions about their paid services, and especially stop helping people who want to use AI services without displaying some strong will to understand the models behind the controller's views.
+
+
